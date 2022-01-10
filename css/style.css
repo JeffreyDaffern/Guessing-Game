@@ -1,0 +1,99 @@
+body
+{
+	background-color: #00134d;
+}
+
+h1
+{
+	font-size: 30px;
+	font-family: tahoma;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+a
+{
+	margin-left: 46%;
+	font-family: tahoma;
+	font-size: 16px;
+}
+
+input
+{
+	padding: 8px;
+	color: white;
+	background-color: black;
+	margin-top: 10px;
+}
+
+#user-guess
+{
+	margin-left: 24%;
+}
+
+#score
+{
+	width: 28px;
+	font-family: fantasy;
+	font-size: 22px;
+	background-color: black;
+	color: white;
+	padding: 7px;
+	padding-left: 14px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.message
+{
+	background-color: gray;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	max-width: 60%;
+	border: 5px	solid black;
+}
+
+div.display
+{
+	background-color: #D3D3D3;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1%;
+	padding-left: 18px;
+	padding-right: 18px;
+	max-width: 58%;
+	font-family: tahoma;
+	font-size: 30px;
+	color: #005ce6;
+	border: 5px solid black;
+}
+
+div.image
+{	
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 550px;
+	padding-left: 50px;
+	padding-top: 10px;
+}
+
+div.code
+{
+	background-color: gray;
+	color: white;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	border: 5px	solid black;
+}
+
+.hide
+{
+	display: none;
+}
+
+.show
+{
+	display: inline-block;
+}

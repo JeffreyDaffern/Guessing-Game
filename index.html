@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Guessing Game</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body onload="reset();">
+		<div id="message" class="message">
+			<h1 id="gameMessage">Guessing Game</h1>
+			<p id="score">00</p>
+		</div>
+		<div class="display" id="display">
+			<div class="image">
+				<img id="gameImage" src="img/play.jpg">
+				<form action="javascript:void(0);">
+					<input id="userGuess" type="text" placeholder="Enter your Guess">
+					<input id="submit" type="submit"class="show" onclick="play();" value="Submit">
+					<input id="playAgain" type="button" class="hide" onclick="playGameAgain();" value="Play Again?">
+				</form>
+			</div>
+		</div>
+		<div class="code">
+			<p><a href="js/script.js">Guessing Game Code</a></p>
+		</div>
+	</body>
+</html>
